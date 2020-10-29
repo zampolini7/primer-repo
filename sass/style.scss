@@ -2,8 +2,6 @@
 @import 'base/colors';
 @import 'base/extend';
 
-
-
 *{
     margin: 0;
     padding: 0;
@@ -32,7 +30,7 @@ h6 {
 }
 
 // h1{
-//     &animation: magic 5s infinite 0.5s;
+//     @extend $magic;
 // }
 
 
@@ -46,6 +44,7 @@ h6 {
     align-items: center;
     /* overflow: hidden; */
     overflow-x: hidden;
+    margin: 0px -9px;
 
     .row{
         
@@ -92,6 +91,13 @@ h6 {
                 @extend %flexbox;   
                 text-decoration: none;
                 color: #FBFCFC;
+
+                &:hover{
+                    background-color: #212F3D;
+                    width: 110%;
+                    justify-content: center;
+                }
+             
                 
 
             }
@@ -132,8 +138,18 @@ h6 {
                 /* width: 100%;
                 height: 100%; */
                 align-items: flex-end;
-                position: relative;
-                bottom: 0;
+                // position: relative;
+                // bottom: 0;
+                
+
+                &:hover{
+                    background-color: #2C3E50;
+                    width: 22%;
+                    
+                    
+
+                    
+                }
             
 
             }
@@ -178,8 +194,18 @@ h6 {
                 /* width: 100%;
                 height: 100%; */
                 align-items: flex-end;
-                position: relative;
-                bottom: 0;
+                // position: relative;
+                // bottom: 0;
+                
+
+                &:hover{
+                    background-color: #2C3E50;
+                    width: 22%;
+                    
+                    
+
+                    
+                }
             
 
             }
@@ -218,7 +244,17 @@ h6 {
                 line-height: 2.0;
                 
                 .chistazos-a{
-                    @extend %flexbox;   
+                    @extend %flexbox;
+                    
+                    &:hover{
+                        transform: translate(-20px);
+                        transition: all 1.5s ease 0.7s;
+                        -webkit-transition: all 1.5s ease 0.7s;
+                        -moz-transition: all 1.5s ease 0.7s;
+                        -o-transition: all 1.5s ease 0.7s;
+                        -ms-transition:all 1.5s ease 0.7s;
+                    
+                    }
 
                     .chistazos-a-img{
                         @extend %flexbox;   
@@ -239,12 +275,21 @@ h6 {
                 /* width: 100%;
                 height: 100%; */
                 align-items: flex-end;
-                position: relative;
-                bottom: 0;
+                // position: relative;
+                // bottom: 0;
+                
+
+                &:hover{
+                    background-color: #2C3E50;
+                    width: 22%;
+                    
+                    
+
+                    
+                }
             
 
             }
-
             
 
         }
@@ -310,8 +355,18 @@ h6 {
                 /* width: 100%;
                 height: 100%; */
                 align-items: flex-end;
-                position: relative;
-                bottom: 0;
+                // position: relative;
+                // bottom: 0;
+                
+
+                &:hover{
+                    background-color: #2C3E50;
+                    width: 22%;
+                    
+                    
+
+                    
+                }
             
 
             }
@@ -372,7 +427,7 @@ h6 {
 
                 .h5-tarj{
                     @extend %flexbox;   
-                    width: 25vw;
+                    width: 100%;
                     justify-content: center;
                     align-items: center;
                     margin: 0px;
@@ -395,8 +450,18 @@ h6 {
                 /* width: 100%;
                 height: 100%; */
                 align-items: flex-end;
-                position: relative;
-                bottom: 0;
+                // position: relative;
+                // bottom: 0;
+                
+
+                &:hover{
+                    background-color: #2C3E50;
+                    width: 22%;
+                    
+                    
+
+                    
+                }
             
 
             }
@@ -776,10 +841,11 @@ h6 {
     }
 }
 
-@media (max-width:400px) {
+@media (max-width:401px) {
 
     .page{
         width: 103vw;
+        margin: 0px;
 
         h1,
         h2,
@@ -856,6 +922,11 @@ h6 {
 
             
             .gustos-s{
+
+                .gustos-h1{
+                    width: 91vw;
+                }
+
                 .gustos-container-img{
                     display: flex;
                     flex-wrap: wrap;
