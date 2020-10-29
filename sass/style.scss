@@ -1,6 +1,7 @@
 @import 'base/fonts';
 @import 'base/colors';
 @import 'base/extend';
+@import 'base/mixins';
 
 *{
     margin: 0;
@@ -96,6 +97,7 @@ h6 {
                     background-color: #212F3D;
                     width: 110%;
                     justify-content: center;
+                    
                 }
              
                 
@@ -144,8 +146,10 @@ h6 {
 
                 &:hover{
                     background-color: #2C3E50;
-                    width: 22%;
+                    padding: 4px;
+                    transition: all 0.5s ease 0.5s;
                     
+                    @include transition-kit();
                     
 
                     
@@ -200,8 +204,11 @@ h6 {
 
                 &:hover{
                     background-color: #2C3E50;
-                    width: 22%;
+                    padding: 4px;
                     
+                    transition: all 0.5s ease 0.5s;
+                    
+                    @include transition-kit();
                     
 
                     
@@ -249,11 +256,8 @@ h6 {
                     &:hover{
                         transform: translate(-20px);
                         transition: all 1.5s ease 0.7s;
-                        -webkit-transition: all 1.5s ease 0.7s;
-                        -moz-transition: all 1.5s ease 0.7s;
-                        -o-transition: all 1.5s ease 0.7s;
-                        -ms-transition:all 1.5s ease 0.7s;
-                    
+
+                        @include hover-img();
                     }
 
                     .chistazos-a-img{
@@ -281,7 +285,13 @@ h6 {
 
                 &:hover{
                     background-color: #2C3E50;
-                    width: 22%;
+                    padding: 4px;
+                    transition: all 0.5s ease 0.5s;
+                    
+                    @include transition-kit();
+
+
+                    
                     
                     
 
@@ -361,7 +371,10 @@ h6 {
 
                 &:hover{
                     background-color: #2C3E50;
-                    width: 22%;
+                    padding: 4px;
+                    transition: all 0.5s ease 0.5s;
+                    
+                    @include transition-kit();
                     
                     
 
@@ -418,6 +431,13 @@ h6 {
 
 
                     .img-random-b{
+                       &:hover{
+                            transform: scale(1.2);
+                            transition: all 0.5s ease 0.5s;
+
+                            @include transition-kit ();
+                            
+                        }
 
                     }
                 }
@@ -456,7 +476,10 @@ h6 {
 
                 &:hover{
                     background-color: #2C3E50;
-                    width: 22%;
+                    padding: 4px;
+                    transition: all 0.5s ease 0.5s;
+                    
+                    @include transition-kit();
                     
                     
 
@@ -976,6 +999,7 @@ h6 {
             .random-s{
         
                 .random-h1{
+                    width: 93vw;
                    
         
                 }
