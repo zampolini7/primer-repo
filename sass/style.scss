@@ -853,6 +853,8 @@ h6 {
         }
         
         .gustos-container{
+
+            
             .gustos-s{
                 .gustos-container-img{
                     display: flex;
@@ -866,12 +868,27 @@ h6 {
                         height: 70vh;
                         margin: 10px;
                         padding: 2px;
+
+                        
                         
                 
                     }
                     .imagen-1{
-                        width: 105vw;
                         height: 70vh;
+                        width: 100vw;
+                        margin: 0px 7px;
+                    }
+
+                    .carousel-control-prev, .carousel-control-next{
+
+                        .carousel-control-next-icon, .carousel-control-prev-icon {
+                            display: inline-block;
+                            width: 20px;
+                            height: 20px;
+                            margin: 10px 33px;
+                            background: no-repeat 50%/100% 100%;
+                        }
+                        
                     }
                 }
 
@@ -967,6 +984,14 @@ h6 {
     
         .footer{
             justify-content: space-evenly;
+
+            .footer-div {
+                .footer-container-redes {
+                   
+                    justify-content: center;
+                }
+            }    
+                
         }
     
         .volver1{
