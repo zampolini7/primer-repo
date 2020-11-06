@@ -115,7 +115,12 @@ h6 {
 }
 .page .inicio-container .inicio-s .volver1:hover {
   background-color: #2C3E50;
-  width: 22%;
+  padding: 4px;
+  transition: all 0.5s ease 0.5s;
+  -webkit-transition: all 1.5s ease 0.7s;
+  -moz-transition: all 1.5s ease 0.7s;
+  -o-transition: all 1.5s ease 0.7s;
+  -ms-transition: all 1.5s ease 0.7s;
 }
 .page .yo-container {
   background-color: #212F3D;
@@ -144,7 +149,12 @@ h6 {
 }
 .page .yo-container .yo .volver1:hover {
   background-color: #2C3E50;
-  width: 22%;
+  padding: 4px;
+  transition: all 0.5s ease 0.5s;
+  -webkit-transition: all 1.5s ease 0.7s;
+  -moz-transition: all 1.5s ease 0.7s;
+  -o-transition: all 1.5s ease 0.7s;
+  -ms-transition: all 1.5s ease 0.7s;
 }
 .page .chistazos-container {
   background-color: #212F3D;
@@ -187,7 +197,12 @@ h6 {
 }
 .page .chistazos-container .chistazos-s .volver1:hover {
   background-color: #2C3E50;
-  width: 22%;
+  padding: 4px;
+  transition: all 0.5s ease 0.5s;
+  -webkit-transition: all 1.5s ease 0.7s;
+  -moz-transition: all 1.5s ease 0.7s;
+  -o-transition: all 1.5s ease 0.7s;
+  -ms-transition: all 1.5s ease 0.7s;
 }
 .page .gustos-container {
   background-color: #212F3D;
@@ -232,7 +247,12 @@ h6 {
 }
 .page .gustos-container .gustos-s .volver1:hover {
   background-color: #2C3E50;
-  width: 22%;
+  padding: 4px;
+  transition: all 0.5s ease 0.5s;
+  -webkit-transition: all 1.5s ease 0.7s;
+  -moz-transition: all 1.5s ease 0.7s;
+  -o-transition: all 1.5s ease 0.7s;
+  -ms-transition: all 1.5s ease 0.7s;
 }
 .page .random-container {
   background-color: #212F3D;
@@ -258,6 +278,14 @@ h6 {
   background-color: #212F3D;
   margin-bottom: 23px !important;
 }
+.page .random-container .random-s .random-container-car .niki .img-random-b:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease 0.5s;
+  -webkit-transition: all 1.5s ease 0.7s;
+  -moz-transition: all 1.5s ease 0.7s;
+  -o-transition: all 1.5s ease 0.7s;
+  -ms-transition: all 1.5s ease 0.7s;
+}
 .page .random-container .random-s .card-body .h5-tarj {
   width: 100%;
   justify-content: center;
@@ -276,7 +304,12 @@ h6 {
 }
 .page .random-container .random-s .volver1:hover {
   background-color: #2C3E50;
-  width: 22%;
+  padding: 4px;
+  transition: all 0.5s ease 0.5s;
+  -webkit-transition: all 1.5s ease 0.7s;
+  -moz-transition: all 1.5s ease 0.7s;
+  -o-transition: all 1.5s ease 0.7s;
+  -ms-transition: all 1.5s ease 0.7s;
 }
 .page .form-container-max {
   justify-content: space-between;
@@ -441,6 +474,7 @@ h6 {
 }
 .page .footer .footer-div .footer-container-redes .footer-redes .footer-img-lkd {
   height: 34px;
+  margin-top: 13px;
 }
 .page .footer .footer-div .footer-container-redes .footer-redes {
   justify-content: space-between;
@@ -449,6 +483,7 @@ h6 {
 .page .footer .footer-div .footer-container-redes .footer-redes .footer-img-ig {
   justify-content: space-between;
   height: 34px;
+  margin-top: 12px;
 }
 .page .footer .footer-div .footer-container-redes .footer-p {
   padding: 10px;
@@ -582,6 +617,9 @@ h6 {
     margin: 0px;
     padding: 5px;
     width: 100vw;
+  }
+  .page .random-container .random-s .random-h1 {
+    width: 93vw;
   }
   .page .random-container .random-s .random-container-car {
     justify-content: center;
