@@ -16,6 +16,10 @@
     <!-- <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     
+    <!-- Link de Animaciones con scroll -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
     <!-- Metas para el SEO -->
 
     <meta name="Description" content="Resumen acerca de Nicolás Zampolini. Es una especie de curriculum informal, con mis gustos, preferencias, algunas creaciones literarias y sugerencias de lugares a conocer en Córdoba, Argentina." > 
@@ -56,63 +60,77 @@
 
 <!-- Inicio de Secciones -->
 
-    <div class="inicio-container">
-        
-        <section class="inicio-s" id="inicio">
+ <!-- inicio de sección inicio-->
+     <div data-aos="fade-right"     data-aos-duration = " 3000 " data-aos-easing="ease-in-sine" >
 
-             <!-- inicio  -->
+         <div class="inicio-container">
+             
+             <section class="inicio-s" id="inicio">
+     
+                 
+     
+                 <h1 class="inicio-h1">INICIO</h1>
+                 <p class="inicio-p">
+                    En esta página vas a encontrar una sintesís de mi, de quien soy,
+                    también de algunas cosas que me gustan. Quiero que me conozcas,
+                    para eso voy a usar este medio como si fuera una bitacora. 
+                    Si, ojala funcione bien y no como la de Buzz Ligth Year. <br>
+                    <br>
+                    Aviso spoiler: No te me pongas
+                    pretencioso, soy un milenial aprendiendo a programar, no Elon Musk. (XD, lol, mejor hushan)
+                 </p>
+                 <a class="volver1" href="#volver">
+                     Para volver al menú inicial clickea acá
+                 </a>
+     
+             </section>
+         </div>
 
-            <h1 class="inicio-h1">INICIO</h1>
-            <p class="inicio-p">
-               En esta página vas a encontrar una sintesís de mi, de quien soy,
-               también de algunas cosas que me gustan. Quiero que me conozcas,
-               para eso voy a usar este medio como si fuera una bitacora. 
-               Si, ojala funcione bien y no como la de Buzz Ligth Year. <br>
-               <br>
-               Aviso spoiler: No te me pongas
-               pretencioso, soy un milenial aprendiendo a programar, no Elon Musk. (XD, lol, mejor hushan)
-            </p>
-            <a class="volver1" href="#volver">
-                Para volver al menú inicial clickea acá
-            </a>
-
-        </section>
     </div>
 
+     <!-- Fin de inicio -->
 
- <!-- inicio yo -->
-    <div class="yo-container">
-        <section id=yo-id class="yo">
-        
-            <h1 class="yo-h1">YO</h1>
 
-            <p class="yo-p">
-              Vamos a empezar por lo importante. <br>
-              Me encanta poder disfrutar de los paisajes, por más simples que sean.<br>
-              Me gustan mucho los chistes malos.<br>
-              Mi comida favorita son las milanesas con puré.<br>
-              Me gusta la gente que siempre tirá buena onda.<br>
-              Me gusta hacer de todo, quiero hacer de todo.<br>
-              Tengo la mejor novia del mundo.<br>
-              <br>
-              Si fueramos dos bochas de helado, sería Dulce de leche granizado<br>
-              y limón. El limón abajo por favor.<br> 
-              Me encantan las películas que te sorprenden, que te hacen pensar distinto,<br>
-              como así también disfruto mucho el mundo de Marvel, Harry Potter, Rápido y furioso.<br>
-              Me gusta pensar en como resolver ciertos problemas, por diversión.<br>
-              Me gusta que me desafien, siento que saca lo mejor de mi.<br>
-              <br>
-              Quiero vivir una vida disfrutando la simpleza de las cosas.<br>
-              Quiero dejar mi huella en este mundo, sumando cosas positivas.<br>
-                                                          
-            </p>
 
-            <a class="volver1"  href="#volver">
-                Para volver al menú inicial clickea acá
-            </a>
-            
-        </section>
-    </div>
+     <!-- inicio yo -->
+     <div  data-aos="fade-left"    data-aos-duration = " 6000 " data-aos-easing="ease-in-sine" data-aos-delay="300">
+         <div class="yo-container">
+             <section id=yo-id class="yo">
+             
+                 <h1 class="yo-h1">YO</h1>
+     
+                 <p class="yo-p">
+                   Vamos a empezar por lo importante. <br>
+                   Me encanta poder disfrutar de los paisajes, por más simples que sean.<br>
+                   Me gustan mucho los chistes malos.<br>
+                   Mi comida favorita son las milanesas con puré.<br>
+                   Me gusta la gente que siempre tirá buena onda.<br>
+                   Me gusta hacer de todo, quiero hacer de todo.<br>
+                   Tengo la mejor novia del mundo.<br>
+                   <br>
+                   Si fueramos dos bochas de helado, sería Dulce de leche granizado<br>
+                   y limón. El limón abajo por favor.<br> 
+                   Me encantan las películas que te sorprenden, que te hacen pensar distinto,<br>
+                   como así también disfruto mucho el mundo de Marvel, Harry Potter, Rápido y furioso.<br>
+                   Me gusta pensar en como resolver ciertos problemas, por diversión.<br>
+                   Me gusta que me desafien, siento que saca lo mejor de mi.<br>
+                   <br>
+                   Quiero vivir una vida disfrutando la simpleza de las cosas.<br>
+                   Quiero dejar mi huella en este mundo, sumando cosas positivas.<br>
+                                                               
+                 </p>
+     
+                 <a class="volver1"  href="#volver">
+                     Para volver al menú inicial clickea acá
+                 </a>
+                 
+             </section>
+         </div>
+
+     </div>
+
+    <!-- Fin yo -->
+
 
     <!-- inicio chistazos -->
     <div class="chistazos-container">
@@ -130,6 +148,8 @@
             </a>
         </section>
     </div>
+
+    <!-- Fin de chistazos -->
 
 
      <!-- inicio gustos -->
@@ -187,6 +207,8 @@
         </section>
     </div>
 
+    <!-- Fin de gustos -->
+
 
  <!-- inicio random -->
 
@@ -243,12 +265,21 @@
     </div>
 
 
+    
+
+    
+
+
+
+
+     
+
 <!-- Fin de secciones -->
 
 
 <!-- Inicio formulario -->
 
-<!-- Fin formulario -->
+
    
     <div class="form-container-max">   
 
@@ -308,9 +339,9 @@
 
     </div>
 
+<!-- Fin formulario -->
 
-
-    <!-- Inicio footer -->
+<!-- Inicio footer -->
 
     <footer class="footer">
         <div class="footer-div">
@@ -348,5 +379,17 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!-- link de animaciones con scroll jq -->
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+    <script>
+         AOS.init();
+    </script>
+
 </body>
 </html>
