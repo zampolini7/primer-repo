@@ -74,7 +74,7 @@ h6 {
         position: absolute;
         align-items: center;
         top: 25%;
-        left: 30%;
+        left: 35%;
         list-style: none;
         line-height: 2.6;
         letter-spacing: 4.5px;
@@ -92,6 +92,12 @@ h6 {
                 @extend %flexbox;   
                 text-decoration: none;
                 color: #FBFCFC;
+
+                .header-inicio-corazon{
+                    height: 44px;
+                    width: 24px;
+                    margin-left: 10px;
+                }
 
                 &:hover{
                     background-color: #212F3D;
@@ -866,6 +872,8 @@ h6 {
     }
 }
 
+/* MOBILE */
+
 @media (max-width:401px) {
 
     .page{
@@ -1101,13 +1109,8 @@ h6 {
     }
 
 }
-/* tablet style */
 
-
-
-
-
-@media only screen and (min-width:401px) and (max-width: 960px) {
+@media only screen and (min-width:402px) and (max-width: 700px) {
 
     .page{
         width: 103vw;
@@ -1195,6 +1198,15 @@ h6 {
 
         }
 
+        .inicio-container{
+            .inicio-s{
+                .inicio-p{
+                    padding: 40px;
+                    margin: 0px;
+                }
+            }
+        }
+
         .chistazos-container{
             .chistazos-s{
                 .chistazos-h1{
@@ -1255,6 +1267,8 @@ h6 {
         
         .random-container{
     
+            display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             margin: 0px;
             padding: 5px;
@@ -1268,6 +1282,7 @@ h6 {
                 }
         
                 .random-p{
+                    padding: 40px;
                    
         
                 }
@@ -1276,11 +1291,15 @@ h6 {
                     justify-content: center;
                     margin: 0px;
                     padding: 5px;
+                    padding-left: 36px;
+                    padding-right: 20px;
                     width: 100vw;
 
                     
         
                     .niki{
+                        margin: 0px;
+                        padding: 0px;
                       
         
                         .img-random-b{
@@ -1320,6 +1339,295 @@ h6 {
         
             }
         }
+        
+           
+        
+        
+        
+        .form-container-name,
+        .form-container-firstname,
+        .formcontainer-email,
+        .form-container-button{
+            margin: 8px 10px;
+            justify-content: center;
+            .form-nl{
+                margin:10px;
+                
+            }
+        }
+
+        
+        
+        .footer{
+            justify-content: center;
+            .footer-div{
+                .footer-container-redes{
+                    justify-content: center;
+                    margin: 10px;
+                    flex-direction: row;
+                    align-items: center;
+                    .footer-img-ig,
+                    .footer-img-lkd{
+                    margin: 10px 10px;
+                    }
+                }
+    
+            }
+        }
+    
+    
+        .volver1{
+            justify-content: center;
+        }
+
+
+
+       
+    
+        
+    
+
+
+
+    }
+
+}
+
+
+
+/* tablet style */
+
+@media only screen and (min-width:701px) and (max-width: 960px) {
+
+    .page{
+        width: 103vw;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-size: smaller;
+            letter-spacing: 6px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            font-size: 14px;
+            padding: 5px;
+            margin-top: 9px;
+            width: 100%;
+
+            
+    
+        /* VER ANCHO TOTAL */
+        }
+
+        .inicio-h1,
+        .yo-h1,
+        .chistazos-h1,
+        .gustos-h1,
+        .random-h1{
+            width: 100%;
+        }
+
+        .header-container{
+            top: 25%;
+            left: 29%;
+            font-size: medium;
+
+            .image-principal{
+                width: 103vw;
+            }
+
+        }
+    
+        .inicio-p,
+        .yo-p,
+        .chistazos-p,
+        .gustos-p,
+        .random-p{
+            font-size: 16px;
+            line-height: 2;
+            width: 100vw;
+            justify-content: center;
+            
+        }
+        
+        .inicio-container, 
+        .yo-container,
+        .chistazos-container,
+        .gustos-container,
+        .random-container,
+        .form-container-max {
+            margin: 0px;
+            padding: 5px;
+            justify-content: space-around;
+
+            
+
+            .form-container-nl {
+                .form-nl {
+                    .form-input-nl {
+                        margin: 20px 10px 0px 10px;
+                    }
+                    
+                }
+                
+            }
+            
+            
+
+            .form-container-email-button,
+            .form-container-name-first {
+                justify-content: center;
+            }
+
+
+        }
+
+        .inicio-container{
+            .inicio-s{
+                .inicio-p{
+                    padding: 40px;
+                    margin: 0px;
+                }
+            }
+        }
+
+        .chistazos-container{
+            .chistazos-s{
+                .chistazos-h1{
+
+                }
+                .chistazos-p{
+                    justify-content: center;
+
+                    .chistazos-a{
+                        .chistazos-a-img{
+                            padding:20px 42px;
+                        }
+                        
+                    }
+                }
+                
+            }
+        }
+
+    
+    
+        
+        .gustos-container{
+            .gustos-s{
+                .gustos-container-img{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    width: inherit;
+                    flex-direction: column;
+                    align-items: center;
+
+                    
+                    .gustos-img{          
+                        width: 50vw;
+                        height: 70vh;
+                        margin: 10px;
+                        padding: 2px;
+
+                        
+                        .gustos-img:hover{
+                            transform: scale(1.2);
+                        
+                        
+                            transition: all 1.5s ease 0.7s;
+                        }
+                        
+                
+                    }
+                    .imagen-1{
+                        width: 88vw;
+                        height: 70vh;
+                    }
+                }
+
+            }
+        }
+        
+        .random-container{
+    
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0px;
+            padding: 5px;
+            width: 100vw;
+        
+            .random-s{
+        
+                .random-h1{
+                   
+        
+                }
+        
+                .random-p{
+                    padding: 40px;
+                   
+        
+                }
+        
+                .random-container-car{
+                    justify-content: center;
+                    margin: 0px;
+                    padding: 5px;
+                    padding-left: 70px;
+                    padding-right: 20px;
+                    width: 100vw;
+
+                    
+        
+                    .niki{
+                        margin: 0px;
+                        padding: 0px;
+                      
+        
+                        .img-random-b{
+        
+                        }
+                    }
+                }
+        
+                .card-body{
+        
+                    .h5-tarj{
+                        width: 100%;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0px;
+                        flex-wrap: wrap;
+                        display: flex;
+                        font-size: 18px;
+
+        
+                    }
+        
+                    .card-text{
+        
+                    }
+                }
+        
+                .volver1{    
+                    
+                
+        
+                }
+        
+                
+        
+        
+        
+            }
+        }
+        
         
            
         
